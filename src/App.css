@@ -1,21 +1,35 @@
-html, body{
+html {
   padding:0;
   margin:0;
   font-family: Arial, Helvetica, sans-serif!important;
   box-sizing: border-box;
+
 }
 
+body  {  
+  padding:0;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif!important;
+  box-sizing: border-box;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/389921374355002432/34038CD913279FF9BBA2A218CBBFE747A533ED3B/');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+ }
+
+
 .navbarContainer{
-  background-color: cornflowerblue;
+  background-color: black;
   display: flex;
   list-style:none;
   flex-wrap: nowrap;
-  height:18vh;
+  height:8vh;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
-
 
 a{
   color:white;
