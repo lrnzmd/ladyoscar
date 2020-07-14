@@ -24,8 +24,7 @@ function App() {
 
 const Home = () => {
   return(
-    <h1>Sono la home ciao</h1>
-    
+    <img className="menu" src={'https://cdn.steamgriddb.com/logo_thumb/1b69ebedb522700034547abc5652ffac.png'} alt="Logo" /> 
   )
 }
 

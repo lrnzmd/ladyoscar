@@ -42,3 +42,86 @@ a{
 #titleContainer a:hover{
   color:darkblue;
 }
+
+p{
+  color: blueviolet;
+  padding: 3em;
+  text-align: center;
+  background-color: black;
+}
+
+.menu{
+  height: 500px;
+  width: 500px;
+  position: center;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board {
+  display: table;
+    border-collapse: separate;
+    border-color: grey;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.board-row {
+    background-color: seagreen;
+
+}
+
+.boardCorner {
+  background: seagreen;
+  padding: 0 1rem 0 1rem;
+}
+
+.inline {
+  display:inline !important;
+}
+.status {
+  margin-bottom: 10px;
+}
+
+.yellow {
+  background: linear-gradient(to bottom, rgb(255, 196, 0) 0%,#fce328 100%) !important;
+}
+.red {
+  background: linear-gradient(to bottom, #ff1616 0%,#ad0505 100%) !important;
+}
+.square {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    margin: 1px;
+    background: #b0ebff;
+    display:inline;
+    margin:0.5rem;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
